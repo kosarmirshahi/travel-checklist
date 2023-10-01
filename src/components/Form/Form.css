@@ -1,0 +1,20 @@
+.inputItem {
+  width: 30%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: #a5a5a5 2px solid;
+  /* color: #a5a5a5; */
+  outline: none;
+}
+.addBtn {
+  width: 10%;
+  height: 2.8rem;
+  border-radius: 5px;
+  border: #0f92ff 2px solid;
+  color: #fff;
+  background-color: #0f92ff;
+  outline: none;
+  cursor: pointer;
+  margin-left: 15px;
+  font-weight: 700;
+}

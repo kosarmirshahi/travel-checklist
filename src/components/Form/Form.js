@@ -3,8 +3,12 @@ function Form() {
   return (
     <div>
       <p>Enter your item</p>
-      <input type="text" />
-      <button>Add</button>
+      <input
+        type="text"
+        placeholder="Type something..."
+        className="inputItem"
+      />
+      <button className="addBtn">ADD</button>
     </div>
   );
 }
