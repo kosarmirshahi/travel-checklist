@@ -1,3 +1,8 @@
+.header {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
 .destination {
   color: #38a4ff;
   margin-bottom: -15px;

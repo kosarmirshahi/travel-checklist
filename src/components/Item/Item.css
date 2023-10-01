@@ -1,0 +1,12 @@
+.item {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  width: 25px;
+  height: 25px;
+}
+/* .itemText {
+  text-decoration: line-through;
+} */

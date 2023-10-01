@@ -1,0 +1,11 @@
+.packinglist {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  justify-content: space-between;
+}
