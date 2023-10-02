@@ -1,23 +1,20 @@
 import Item from "../Item/Item";
 import "./PackingList.css";
-function PackingList() {
+// const initial = [
+//   { id: 1, name: "passport", packed: true },
+//   { id: 2, name: "mug", packed: false },
+//   { id: 3, name: "ticket", packed: true },
+//   { id: 4, name: "bag", packed: false },
+//   { id: 5, name: "charger", packed: true },
+// ];
+function PackingList({ items }) {
   return (
     <div className="packinglist">
       <h2>list</h2>
       <div className="items">
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
-        <Item />
+        {items.map((item) => (
+          <Item item={item} />
+        ))}
       </div>
     </div>
   );

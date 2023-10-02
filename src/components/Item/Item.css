@@ -10,3 +10,6 @@
 /* .itemText {
   text-decoration: line-through;
 } */
+.close {
+  margin-left: 6px;
+}

@@ -1,9 +1,15 @@
 import "./Item.css";
-function Item() {
+function Item({ item }) {
   return (
     <div className="item">
       <input type="checkbox" className="checkbox" />
-      <p className="itemText">Passport</p>
+      <p
+        className="itemText"
+        style={item.packed ? { textDecoration: "line-through" } : {}}
+      >
+        {item.name}
+      </p>
+      <p className="close">✖</p>
     </div>
   );
 }
