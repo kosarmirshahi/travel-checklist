@@ -7,13 +7,13 @@ import "./PackingList.css";
 //   { id: 4, name: "bag", packed: false },
 //   { id: 5, name: "charger", packed: true },
 // ];
-function PackingList({ items }) {
+function PackingList({ items, onDeleteItem }) {
   return (
     <div className="packinglist">
       <h2>list</h2>
       <div className="items">
         {items.map((item) => (
-          <Item item={item} />
+          <Item item={item} onDeleteItem={onDeleteItem} />
         ))}
       </div>
     </div>

@@ -12,4 +12,8 @@
 } */
 .close {
   margin-left: 6px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  cursor: pointer;
 }
