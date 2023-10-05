@@ -7,5 +7,11 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: -10px;
-  justify-content: space-between;
+}
+.emptyList {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }

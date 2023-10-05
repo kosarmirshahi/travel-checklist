@@ -22,3 +22,11 @@
   margin-left: 15px;
   font-weight: 700;
 }
+.emptyInput {
+  width: 30%;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: red 2px solid;
+  outline: none;
+  margin-bottom: 40px;
+}
